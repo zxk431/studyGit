@@ -7,6 +7,8 @@ import java.util.Map;
 
 public class AsserUtil {
 	
+	
+	
 	//方法1：断言为真，如果为假，则抛出自定义异常，异常消息为第2个参数默认消息。 (5分)
 	public static void isTrue(boolean condition, String message){
 		if(!condition){
