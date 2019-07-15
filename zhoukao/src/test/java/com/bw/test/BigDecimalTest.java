@@ -28,6 +28,10 @@ public class BigDecimalTest {
 		System.out.println(big2.compareTo(big1));
 	}
 	
+	/*
+	 * 
+	 * BigDecimal
+	 */
 	@Test
 	public void test3(){
 		double num = 440.00001;
@@ -36,8 +40,7 @@ public class BigDecimalTest {
 		//BigDecimal big3 = big1.add(big2);                     ¼Ó
 		//BigDecimal big3 = big1.subtract(big2);                ¼õ
 		//BigDecimal big3 = big1.multiply(big2);                ³Ë
-		BigDecimal big3 = big1.divide(big2);
-		//b1.divide(b2,DEF_DIV_SCALE,BigDecimal.ROUND_HALF_UP).doubleValue();
+		BigDecimal big3 = big1.divide(big2);					//³ý
 		System.out.println(big3);
 		System.out.println(big3.intValue());
 	}
